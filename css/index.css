@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Jura');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+
+
+body {
+    background: url(../img/bg.jpg) no-repeat center;
+    background-size:cover;
+    background-blend-mode: darken;
+    margin:0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.cabecalho {
+    text-align: center;
+    font-family: "Jura";
+}
+
+.cabecalho p {
+    margin: 5px;
+    color:#bb2124;
+}
+
+.cabecalho .logo {
+    max-height: 100px;
+}
+.boxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box form {
+    border-radius: 10px;
+    background: #ffffffaa;
+    margin:5px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    padding:10px;
+    height: 300px;
+    box-shadow:  0 0 10PX #00000070;
+}
+
+.box form input,.box form button {
+    margin-bottom: 10px;
+    height: 30px;
+    text-align: center;
+}
+
+.box form h3 {
+    text-align: center;
+}
+
+.box-conteudo {
+    font-family: Roboto, sans serif;   
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.box-rodape {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-grow: 1;
+}
+
+.box-rodape input[type=submit]{
+    height: 30px;
+    border:none;
+}
+
+.box-criptografia form {
+    border-top: 5px solid #262290;
+    /* background: url("../img/crypto.jpg");
+    background-size: cover;
+    color:#fff;
+    font-weight: bold; */
+}
+
+.box-criptografia form h3 {
+    color: #262290;
+    font-size: x-large;
+    border-bottom: 1px solid #fff
+}
+
+.box-criptografia form input[type=submit] {
+    background-color: #262290;
+    color: #fff;
+}
+
+.box-descriptografia form {
+    border-top: 5px solid #187c09;
+    /* background: url("../img/crypto-2.jpg");
+    background-size: cover;
+    color:#fff;
+    font-weight: bold; */
+}
+
+.box-descriptografia form h3 {
+    color: #187c09;
+    font-size: x-large;
+    border-bottom: 1px solid #fff
+}
+
+.box-descriptografia form input[type=submit] {
+    background-color: #187c09;
+    color: #fff;
+}
+
+@media screen and (max-width:600px){
+    body {
+        height: auto;
+    }
+
+    .box form {
+        width: 90vw
+    }
+
+    .cabecalho .logo {
+        max-width: 80vw;
+    }
+}

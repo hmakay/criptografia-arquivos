@@ -1,0 +1,22 @@
+{
+    "name": "dcfiles/composer-php",
+    "description": "Sistema de criptografia e descriptografia com chave. Sistema baseado no seguinte sistema:https://github.com/joelrlneto/criptografia-arquivos-php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joel Rodrigues",
+            "email": "joelrlneto@gmail.com"
+           
+        },
+        {
+            "name": "Hugo Eduardo",
+            "email": "hugo_sp@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit":"^4.3"
+    }
+}
